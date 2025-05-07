@@ -1,11 +1,8 @@
-package com.railway.train_service.dto;
+package com.railway.reservation_service.dto;
 
 import lombok.*;
-import org.springframework.stereotype.Component;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter @Setter @NoArgsConstructor @AllArgsConstructor
 public class TrainDTO {
     private Long id;
     private String trainName;
@@ -16,8 +13,4 @@ public class TrainDTO {
     private String arrivalTime;
     private double fare;
 
-    // Constructors
-
-
-    // Getters and Setters
 }
